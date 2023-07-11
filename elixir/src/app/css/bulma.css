@@ -803,12 +803,12 @@ fieldset[disabled] .button.is-black.is-inverted.is-outlined {
 .button.is-light:hover, .button.is-light.is-hovered {
   background-color: #eeeeee;
   border-color: transparent;
-  color: rgba(0, 0, 0, 0.7);
+  color: #636261;
 }
 
 .button.is-light:focus, .button.is-light.is-focused {
   border-color: transparent;
-  color: rgba(0, 0, 0, 0.7);
+  color: #636261;
 }
 
 .button.is-light:focus:not(:active), .button.is-light.is-focused:not(:active) {
