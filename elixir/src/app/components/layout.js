@@ -1,12 +1,12 @@
 'use client'
 import '../css/bulma.css';
-
+import BackgroundImage from './backgroundImage';
 
 export default function Layout() {
     return (
         <>
-            <div className='bg' src='https://i.imgur.com/QuJqHP1.jpg'>
-            <nav className="navbar" role="navigation" aria-label="main navigation">
+           
+            <nav className="navbar is-light" role="navigation" aria-label="main navigation">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="https://bulma.io">
                         <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
@@ -19,7 +19,7 @@ export default function Layout() {
                     </a>
                 </div>
 
-                <div id="navbarBasicExample" className="navbar-menu">
+                    <div id="navbarBasicExample" className="navbar-menu ">
                     <div className="navbar-start">
                         <a className="navbar-item" href='/'>
                             My Drinks
@@ -52,7 +52,9 @@ export default function Layout() {
                     </div>
                 </div>
             </nav>
-            </div>
+
+            
+          
         </>
     )
 }

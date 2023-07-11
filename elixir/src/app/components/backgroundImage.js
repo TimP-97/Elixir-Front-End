@@ -6,7 +6,8 @@ export default function BackgroundImage() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         position: 'relative',
-        height: '100vh', // Adjust this to set the desired height of the background image
+        height: '100vh',
+        zIndex: 1
     };
 
     return <div style={divStyle}></div>;
