@@ -6141,7 +6141,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: #E3E0DE;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -6164,8 +6164,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .navbar-link:focus-within,
 .navbar-link:hover,
 .navbar-link.is-active {
-  background-color: #fafafa;
-  color: #485fc7;
+  color: #f0d7cf;
 }
 
 .navbar-item {

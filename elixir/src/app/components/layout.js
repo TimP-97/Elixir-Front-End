@@ -3,6 +3,8 @@ import '../css/bulma.css';
 
 export default function Layout() {
 
+  
+
     const navStyle = {
         position: 'absolute',
         left: 0,
@@ -13,9 +15,11 @@ export default function Layout() {
     }
 
     const navItemsStyle = {
+        marginLeft: '22.5%',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        color: 'white',
       
     };
 
@@ -43,7 +47,7 @@ export default function Layout() {
 
                     <div className="navbar-menu" style={navItemsStyle}>
                    
-                    <div className="navbar-start has-text-centered" >
+                    <div className="navbar-start is-centered" >
                             <a className="navbar-item" href='/' >
                                 My Drinks
                             </a>
